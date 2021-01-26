@@ -1,0 +1,75 @@
+/* цвет основного текста #757575 */
+/* акцент #2196F3  */
+/* белый цвет #FFFFFF */
+/* цвет второстепенного цвета #212121 */
+/* вторичный цвет фона #F5F4FA */
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: #000000;
+}
+
+.logo .second-color {
+  color: #2196f3;
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contacts .link {
+  color: #757575;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+
+/* hero */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .hero-title {
+  color: #ffffff;
+}
+
+.hero .hero-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* advantages */
+
+.advantages .advantages-title {
+  color: #212121;
+}
+
+/* activity */
+
+.activity .activity-title {
+  color: #212121;
+}
+
+/* team */
+
+.team .team-title {
+  color: #212121;
+}
+
+.team .team-member {
+  color: #212121;
+}
