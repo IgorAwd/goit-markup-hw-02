@@ -1,3 +1,9 @@
+:root {
+  --primery-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 /* цвет основного текста #757575 */
 /* акцент #2196F3  */
 /* белый цвет #FFFFFF */
@@ -6,7 +12,7 @@
 
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primery-text-color);
 }
 
 .logo {
@@ -14,27 +20,27 @@ body {
 }
 
 .logo .second-color {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* site nav */
 
 .site-nav .link {
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .contacts .link {
-  color: #757575;
+  color: var(--primery-text-color);
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* hero */
@@ -55,21 +61,39 @@ body {
 /* advantages */
 
 .advantages .advantages-title {
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 /* activity */
 
 .activity .activity-title {
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 /* team */
 
 .team .team-title {
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .team .team-member {
-  color: #212121;
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo .logo-style {
+  color: #ffffff;
+}
+
+.comp-address {
+  color: #ffffff;
+}
+
+footer .address-link {
+  color: rgba(255, 255, 255, 0.6);
 }
