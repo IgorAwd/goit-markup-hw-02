@@ -54,7 +54,7 @@ body {
 }
 
 .hero .hero-button {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: #ffffff;
 }
 
@@ -96,4 +96,17 @@ footer {
 
 footer .address-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* page-portfolio */
+
+.portfolio-link {
+  background-color: #f5f4fa;
+  color: var(--secondary-text-color);
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
