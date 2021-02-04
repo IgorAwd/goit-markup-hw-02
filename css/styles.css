@@ -142,6 +142,10 @@ a {
 
 /* team */
 
+.team {
+  background-color: #f5f4fa;
+}
+
 .team .team-title {
   color: var(--secondary-text-color);
 
